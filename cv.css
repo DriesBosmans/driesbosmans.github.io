@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Orkney Light;
+src: url(Orkney-Light.ttf);}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Light.ttf)
+}
+:root{
+    --main-color: #378c3f;
+    --light-main-color: #7bcc83;
+    --blauwfb: #3b5998;
+    --gray: #E0E1E1;
+
+
+}
+.bg-groen{
+    background-color: var(--main-color);
+}
+.bg-blauwl{background-color: #0072b1}
+.bg-blauw{background-color: var(--blauwfb);}
+.bg-primary{background-color: var(--main-color)}
+
+*{
+    box-sizing: border-box;
+
+}
+a{text-decoration: none;}
+body{
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+
+
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)) , url("achtergrond.png");
+    background-repeat: no-repeat;
+    height: 681px;
+    width: 100%;
+    background-position: top;
+
+}
+
+#profiel{
+    margin: 150px auto 200px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-item:hover{background-color: var(--light-main-color);
+color: white;}
+.nav-item{border-radius: 5px;
+    color: white;
+}
+.nav-link{color: white;}
+.nav-link:hover{color: white;}
+
+#profielfoto {
+    width: 200px;
+    display: inline-block;
+    align-self: center;
+    border-radius: 200px;
+
+}
+
+.buttonbar{
+    display: flex;
+    position: relative;
+    top: -33px;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+
+}
+.buttonbar a{margin: 0 20px;
+border-radius: 10px;}
+#fb{background-color: var(--blauwfb)}
+#fb:hover{background-color: #5D7DC0}
+#linkedin{background-color:  #0072b1}
+#linkedin:hover{background-color: #009ff5}
+
+.socmedia{
+
+    display: flex;
+    width: 65px;
+    justify-content: center;
+
+}
+
+.fas{color: white;
+
+    font-size: 25px;
+margin: 20px;
+font-family: "Font Awesome 5 Brands";
+}
+.werkervaring1{
+    background-color: var(--main-color);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 120px;
+
+}
+.werkervaring1 p {margin-bottom: 2px}
+.werkervaring2{
+    border: 1px solid var(--gray);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 120px;
+
+}
+.werkervaring2 p{margin-bottom: 6px}
+.progress-badge {
+    color: var(--main-color);
+    font-size: 0.8571em;
+    text-transform: uppercase; }
+
+.onderbalk{
+    background-color: #c4e8c8;
+    height: 5px;
+}
+.onderbalk div{
+    background-color: var(--main-color);
+}
+footer p{margin-bottom: 4px;}
+
