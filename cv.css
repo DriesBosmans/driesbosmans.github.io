@@ -88,9 +88,24 @@ border-radius: 10px;}
     display: flex;
     width: 65px;
     justify-content: center;
+    align-content: center;
 
 }
+#dwnld{
+    height: 65px;
+    background-color: var(--main-color);
+    color: white;
+    width: 140px;
+    font-weight: bold;
+    border-radius: 10px;
+border: none;
+    display: flex;
+    align-content: center;
 
+    text-align: center;
+}
+#dwnld:hover{background-color: var(--light-main-color)}
+#dwnld span{margin: 20px 0}
 .fas{color: white;
 
     font-size: 25px;
