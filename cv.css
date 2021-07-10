@@ -10,11 +10,12 @@ src: url(Orkney-Light.ttf);}
     --light-main-color: #7bcc83;
     --blauwfb: #3b5998;
     --gray: #E0E1E1;
+    --pink: #7894d4
 
 
 }
 .bg-groen{
-    background-color: var(--main-color);
+    background-color: var(--pink);
 }
 .bg-blauwl{background-color: #0072b1}
 .bg-blauw{background-color: var(--blauwfb);}
@@ -44,6 +45,8 @@ header{
     margin: 150px auto 200px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 0
 }
 .nav-item:hover{background-color: var(--light-main-color);
 color: white;}
