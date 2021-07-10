@@ -15,7 +15,7 @@ src: url(Orkney-Light.ttf);}
 
 }
 .bg-groen{
-    background-color: var(--pink);
+    background-color: var(--main-color);
 }
 .bg-blauwl{background-color: #0072b1}
 .bg-blauw{background-color: var(--blauwfb);}
