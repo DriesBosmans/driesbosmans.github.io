@@ -29,7 +29,7 @@ a{text-decoration: none;}
 body{
     font-family: "Montserrat", sans-serif;
     align-items: center;
-overflow: visible;
+
 
 }
 header{
@@ -101,7 +101,7 @@ border-radius: 10px;}
 border: none;
     display: flex;
     align-content: center;
-
+    font-size: 15px;
     text-align: center;
 }
 #dwnld:hover{background-color: var(--light-main-color)}
