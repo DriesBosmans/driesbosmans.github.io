@@ -101,7 +101,7 @@ border-radius: 10px;}
 border: none;
     display: flex;
     align-content: center;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
 }
 #dwnld:hover{background-color: var(--light-main-color)}
